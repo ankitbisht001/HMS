@@ -1,0 +1,259 @@
+.navItems{
+    position: absolute !important;
+    z-index: 1 !important;
+    width: 100%;
+    background: none !important;
+    font-weight: 600;
+}
+.carouselResizer{
+    object-fit: cover;
+    height: 100vh;
+    width: 100vh;
+}
+.navColorFixer{
+    color: white !important;
+    --bs-nav-link-color: white !important;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.desPage{
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2vw;
+
+}
+.desNav{
+    height: 40%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.desContent{
+    height: 80vh;
+    width: 80vw;
+    margin-right: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desItem{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: inherit;
+}
+
+.desItem:hover { color: #558bff;
+    text-shadow: 0 0 10px #ffffff;
+     transition: all 0.3s ease-in-out;
+     transform: scale(1.2);
+    }
+
+
+.imageResizer{
+        height: 100%;
+        width: 100%;
+    }
+
+.textPainter{
+    color: black !important;
+}
+.textPainter:hover{
+    color:rgb(53, 52, 52) !important;
+    box-shadow: 2px solid;
+}
+.awardsCard{
+    border: 2px solid white;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+.awardsCard:hover{
+    transform: scale(1.1);
+     box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+.trophyRing{
+    border: 2px solid;
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.awardHead{
+    color: rgb(255, 183, 0);
+    font-weight: 700;
+}
+.feedBox{
+    display: flex;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 2vh;
+    height: 150px;
+    width: 300px;
+    color: white;
+}
+.user{
+    font-size: 20px;
+}
+.userFeedback{
+    font-size: 15px;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+    margin-top: -10px;
+    
+}
+.starRating{
+    height: 25px;
+}
+.feedbacksParent{
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+.thirdWrapper{
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+.amenityBox{
+    height: 90%;
+    width: 90vw;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5vh;
+}
+.amenity{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2vh;
+    height: 200px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 2vh;
+    transition: all 0.2s ease-in-out;
+}
+.amenity:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(151, 213, 255, 0.8);
+}
+.thirdHead{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    font-family: sans-serif;
+
+}
+.amenityIcon{
+    height: 70px;
+    width: 70px;
+}
+.amenityHead{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 5px;
+    line-height: 35px;
+
+}
+.amenityText{
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 2px;    
+}
+.EvenOpWrapper{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.evenBox{
+    height: 45vh;
+    width: 70%;
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 3vh;
+}
+.evenText{
+    height: 80%;
+    width: 55%;
+    color: white;
+    border: 2px solid black;
+    padding: 2vh;
+    border-radius: 2vh;
+}
+.evenText:hover{
+    color: rgb(133, 166, 255);
+}
+.evenImg{
+    height: 90%;
+    border: 2px solid black;
+    width: 20%;
+    color: white;
+    overflow: hidden;
+}
+.imageHover{
+    transition: transform 0.5s ease-in-out; 
+}
+.evenImg:hover .imageHover {
+    transform: scale(1.2); 
+  }
+.evenHeadline{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.evenPara{
+    font-size: 15px;
+    font-family: sans-serif;
+}
