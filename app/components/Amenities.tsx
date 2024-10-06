@@ -34,7 +34,7 @@ v</p>
         <div className={style.amenity}>
             <Image src={Laundry} alt='wifi' className={style.amenityIcon} />
             <h4 className={style.amenityHead}>Laundary Service</h4>
-            <p className={style.amenityText}>A holiday means you don't have to worry about anything. We provide an efficient laundry service.</p>
+            <p className={style.amenityText}>A holiday means you don &apos t have to worry about anything. We provide an efficient laundry service.</p>
         </div>
         <div className={style.amenity}>
             <Image src={Iron} alt='wifi' className={style.amenityIcon} />
