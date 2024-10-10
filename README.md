@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+#HMS
+Project Overview
+A user-friendly, single-page web application built with Next.js that provides an engaging and interactive way to explore the hotel’s amenities, services, and rooms.
+
+Tech Stack
+          Frontend: Next.js
+          Styling: CSS
+          Deployment: Vercel
+
+Key Features
+            : Interactive display of hotel amenities and services
+            : Smooth navigation for a seamless user experience
+            : Designed to enhance user interaction with the hotel’s offerings
+            : Currently in the development phase with ongoing improvements
+>>>>>>> b38ab5600f4ab537e746a6138b2838f48dc9c750
