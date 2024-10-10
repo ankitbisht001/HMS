@@ -12,13 +12,13 @@ const Carousel = () => {
   </div>
   <div className={`carousel-inner ${style.carouselResizer}`}>
     <div className="carousel-item active">
-      <img src="https://c4.wallpaperflare.com/wallpaper/360/515/601/night-in-las-vegas-bellagio-luxury-hotel-casino-hd-wallpapers-for-mobile-phones-laptops-and-pc-1920%C3%971080-wallpaper-preview.jpg" className={`${style.carousel} d-block w-100`} alt="Photo Gallery" />
+      <img src="https://wallpapercave.com/wp/wp1846066.jpg" className={`${style.carousel} d-block w-100`} alt="Photo Gallery" />
     </div>
     <div className="carousel-item">
-      <img src="https://images.alphacoders.com/439/439191.jpg" className={`${style.carousel} d-block w-100`} alt="Photo Gallery" />
+      <img src="https://cdn.pixabay.com/photo/2014/07/10/17/17/hotel-389256_640.jpg" className={`${style.carousel} d-block w-100`} alt="Photo Gallery" />
     </div>
     <div className="carousel-item">
-    <img src="https://c4.wallpaperflare.com/wallpaper/161/978/437/home-interior-design-furniture-estate-wallpaper-preview.jpg" className={`${style.carousel} d-block w-100`} alt="Photo Gallery" />
+    <img src="https://images5.alphacoders.com/349/349822.jpg" className={`${style.carousel} d-block w-100`} alt="Photo Gallery" />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

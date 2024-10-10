@@ -21,7 +21,10 @@ const feedbacks = [
     user: 'Himanshu,',
     feedback: 'Ahotel excels in hospitality and service, offering great value for money. It’s a must-visit for anyone!'
   },
-  
+  {
+    user: 'Ankit,',
+    feedback: 'Known for its fantastic hospitality and service excellence, Ahotel provides exceptional value. A true gem!'
+  },
   {
     user: 'Kapil,',
     feedback: 'Ahotel delivers remarkable hospitality and service, all while being budget-friendly. An outstanding choice!'

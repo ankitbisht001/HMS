@@ -6,11 +6,11 @@ const Nav = () => {
     <nav className={`navbar navbar-expand-lg ${style.navItems}`}>
   <div className="container-fluid" style={{paddingInline:"10vh"}}>
     <ul className={`${style.navColorFixer} navbar-nav `}>
-        <a className="nav-link" href="#carouselExampleIndicators">Home</a>
-        <a className="nav-link" href="/">Features</a>
-      <span className="navbar-logo" style={{fontSize:"30px"}}>aHotel</span>
-        <a className="nav-link" href="/">Pricing</a>
-        <a className="nav-link" href="#About">About</a>
+        <a className="nav-link" href="#carouselExampleIndicators" style={{fontFamily:"New Century Schoolbook, TeX Gyre Schola, serif", fontSize:"20px"}}>Home</a>
+        <a className="nav-link" href="/" style={{fontFamily:"New Century Schoolbook, TeX Gyre Schola, serif", fontSize:"20px"}}>Features</a>
+      <span className="navbar-logo" style={{fontSize:"35px", fontFamily:"cursive"}}>The Hotel</span>
+        <a className="nav-link" href="/" style={{fontFamily:"New Century Schoolbook, TeX Gyre Schola, serif", fontSize:"20px"}}>Pricing</a>
+        <a className="nav-link" href="#About"style={{fontFamily:"New Century Schoolbook, TeX Gyre Schola, serif", fontSize:"20px"}}>About</a>
     </ul>
   </div>
 </nav>
